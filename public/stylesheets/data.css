@@ -1,0 +1,40 @@
+*{
+   
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: verdana;
+  
+  }
+
+  body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+  }
+
+  body h2 {
+    margin-bottom: 20px;
+  }
+
+  table ,th ,td {
+    border:1px solid #444;
+    border-collapse: collapse;
+    padding: 7px ;
+  }
+
+  table{
+    width: 70%;
+  }
+
+  th {
+    background-color: #014e1f;
+    color: whitesmoke;
+  }
+
+  tr:hover {
+    background-color: #04923a;
+    color: whitesmoke;
+  }

@@ -1,0 +1,339 @@
+*{
+   
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: verdana;
+
+}
+body {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  background: linear-gradient(90deg,#1ddb6c 0%,#014e1f 100%);
+}
+
+header {
+  color:white;
+  text-align: center;
+  background: linear-gradient(90deg,#1ddb6c 0%,#014e1f 100%);
+  box-shadow: -6px 6px 40px #014e1f ;
+  border-radius: 10px;
+  width: 180%;
+  max-width: 470px;
+  font-size: 75%;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  padding: 7px;
+ }
+
+ header a {
+  text-decoration: none;
+  color:white;
+ }
+
+ #corpoSegundario {
+  width: 180%;
+  max-width: 470px;
+
+ }
+
+ #dados form {
+  height: 280px;
+  padding-top: 10px;
+ }
+
+ .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(12, 182, 111);
+    box-shadow: -6px 6px 40px rgb(5, 126, 76) ;
+    border-radius: 10px;
+    padding-top: 10px;
+ }
+
+ .form-control label {
+  margin-bottom: 5px;
+  color: #014e1f;
+  font-weight: 700;
+ 
+}
+
+.form-control label ,
+.form-control input {
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+.form-control input {
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  color: #014e1f;
+  font-size: 14.5px;
+}
+
+.form-control select ,
+#op_matematica {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.form-control select {
+  border-radius: 10px;
+  padding: 5px;
+  color: #014e1f;
+}
+
+.fa-solid {
+  display:none;
+  color: #d8df24;
+  border: #aeb406;
+  font-size: 277%;
+  padding-bottom: 5px;
+}
+
+#resultado {
+  display: none;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(238, 242, 243, 0.797);
+  box-shadow: -6px 6px 40px rgb(5, 126, 126);
+  margin-top: 159px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #014e1f;
+  
+}
+
+#resultado2{
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(4, 153, 83, 0.797);
+  box-shadow: -6px 6px 40px rgb(2, 97, 49);
+  margin-top: 159px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+#resultado2 p {
+  font-weight: bolder;
+  color: #edf3f0;
+}
+
+#resultado2 img {
+  width:200px;
+  margin-top: 20px;
+
+}
+
+
+#botao {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 15px;
+  background: linear-gradient(90deg,#1ddb6c 0%,#014e1f 100%);
+  box-shadow: -2px 2px 3px rgb(5, 126, 76) ;
+  color: whitesmoke;
+  padding: 7px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition:all 2s
+}
+
+#botao:hover { 
+  background: linear-gradient(90deg,#f4fc03 0%,#fa0303 100%);
+}
+
+#rodape {
+  margin-top: 25px;
+  width: 180%;
+  max-width: 470px;
+  /* background-color: #054379; */
+  background: linear-gradient(90deg,#014e1f 0%,#1ddb6c 100%);
+  box-shadow: -2px 2px 3px #014e1f ;
+  padding: 17px;
+  color: #1ddb6c;
+  border-radius: 10px;
+}
+
+@media (max-width:545px) {
+  header {
+    width: 162%;
+    max-width: 370px;
+   
+  }
+
+  #corpoSegundario {
+    width: 162%;
+    max-width: 370px;
+    
+  }
+
+  #rodape { 
+    width: 162%;
+    max-width: 370px;
+  }
+
+}
+
+@media (max-width:440px) {
+  header {
+    width: 155%;
+    max-width: 345px;
+    margin-top: 50px;
+   
+  }
+
+  #corpoSegundario {
+    width: 155%;
+    max-width: 345px;
+    
+  }
+
+  #rodape { 
+    width: 155%;
+    max-width: 345px;
+  }
+
+}
+
+@media (max-width:420px) {
+  header {
+    width: 150%;
+    max-width: 340px;
+    margin-top: 50px;
+   
+  }
+
+  #corpoSegundario {
+    width: 150%;
+    max-width: 340px;
+    
+  }
+
+  #rodape { 
+    width: 150%;
+    max-width: 340px;
+  }
+
+}
+
+@media (max-width:396px) {
+  header {
+    width: 135%;
+    max-width: 320px;
+    margin-top: 50px;
+   
+  }
+
+  #corpoSegundario {
+    width: 135%;
+    max-width: 320px;
+  }
+
+  #rodape { 
+    width: 135%;
+    max-width: 320px;
+  }
+
+}
+
+@media (max-width:364px) {
+  header {
+    width: 130%;
+    max-width: 310px;
+    margin-top: 50px;
+   
+  }
+
+  #corpoSegundario {
+    width: 130%;
+    max-width: 310px;
+    
+  }
+
+  #rodape { 
+    width: 130%;
+    max-width: 310px;
+  }
+
+}
+
+@media (max-width:348px) {
+  header {
+    width: 120%;
+    max-width: 290px;
+    margin-top: 50px;
+   
+  }
+
+  #corpoSegundario {
+    width: 120%;
+    max-width: 290px;
+    
+  }
+
+  #rodape { 
+    width: 120%;
+    max-width: 290px;
+  }
+
+}
+
+@media (max-width:318px) {
+  header {
+    width: 110%;
+    max-width: 280px;
+    margin-top: 50px;
+   
+  }
+
+  #corpoSegundario {
+    width: 110%;
+    max-width: 280px;
+    
+  }
+
+  #rodape { 
+    width: 110%;
+    max-width: 280px;
+  }
+
+  #op_matematica{
+    font-size: 90%;
+ }
+
+}
+
+@media (max-width:295px) {
+  header {
+    width: 100%;
+    max-width: 260px;
+    margin-top: 50px;
+  }
+
+  #corpoSegundario {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  #rodape { 
+    width: 100%;
+    max-width: 260px;
+  }
+  
+  #op_matematica{
+    font-size: 85%;
+ }
+
+}
+
+ 

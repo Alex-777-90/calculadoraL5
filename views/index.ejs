@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4d88c7f41d.js" crossorigin="anonymous"></script>
+  <title>Calculadora</title>
+
+  <link rel="stylesheet" href="/stylesheets/tabuada.css">
+
+</head>
+
+<body id ="corpoPrincipal" >
+
+  <header>
+    <a href="http://localhost:3000/historico"><h1>Calculadora</h1></a>
+  </header>
+
+  <section id = "corpoSegundario">
+
+        <div id="dados">
+
+            <form>
+                <div class="form-control">
+                     <label >Nome:</label>
+                     <input type="text" name="nameUser" id="name">
+                </div>
+              
+                <div class="form-control" id="firstDiv">
+                    <label class="tab2Text" id="labelFirst" > Digite um número </label>
+                    <input type="number" name="input1" id="tab">
+                </div> 
+
+                <div class="form-control" id="secondDiv"> 
+                    <label class ="tab2Text" id="labelSecond" > Digite outro número </label>
+                    <input type="number" name="input2" id="tab2">
+                </div>     
+                
+                <div class="form-control"> 
+                    <label class ="tab2Text" id="op_matematica"> Tipo de calculo </label>
+            
+                        <select name="operacao" id="SeleMath">
+                            <option value="Multiplicação">Multiplicação *</option>
+                            <option value="Subtração">Subtração - </option>
+                            <option value="Soma">Soma + </option>
+                            <option value="Divisão">Divisão / </option>
+                        </select>
+
+                        <input name="submit" id ="botao" type="button" value="Gerar calculo">
+                </div>        
+            </form>
+
+        </div>
+
+
+        <div id ="resultado">
+
+
+        </div>
+
+        <div id ="resultado2">
+           <p>Digite valores para calcular </p>
+           <img src="/images/img-calculator-removebg-preview.png">
+        </div>
+
+  
+  </section>
+
+
+  <footer id = "rodape">
+    <p id = rodapeParagrafo>&copy;Teste de programação</p>
+  </footer>
+
+</body>
+
+<script src="/javascripts/tabuada.js"></script>
+
+
+</html>
